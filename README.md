@@ -33,8 +33,14 @@ If not, we get the URL/object from the server and return it to the client and cr
 
 # Before Starting
 
-> before running our code we first must turn on our manual proxy setup with the Address and Port number we specified.
+>
+Note: 
+Before running our code we first must turn on our manual proxy setup with the Address and Port number we specified.
+And you have to create a block_List.txt file  
+And a cache_files folder before running 
+
 ![This is an image](pics/settings.png)
 
-> now we can run our code with the following command followed with the address
+>Now we can run our code with the following command followed with the address
+
 ![This is an image](pics/start.png)
