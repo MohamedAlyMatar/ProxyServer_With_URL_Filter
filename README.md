@@ -6,13 +6,17 @@ This repository is made for CSE351 Computer Networks major task, "HTTP Web Proxy
 
 # Overview
 > System Diagram
+
 ![This is an image](pics/sys.png)
 
 The client sends request via the proxy server, then the proxy server forwards it to the web server, 
 the web server then creates a response message and sends it to the proxy server, eventually 
-sending it to the client 
+sending it to the client
 
-> Our design of the system:
+<br/>
+
+> Our design of the system flow
+
 ![This is an image](pics/MyProxyServer.drawio.png)
 
 After we connect to our preferred address and port number, we create a socket and bind it to the port and start listening to serve, waiting the client to request
